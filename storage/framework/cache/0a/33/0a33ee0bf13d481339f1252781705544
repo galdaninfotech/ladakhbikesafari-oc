@@ -1,0 +1,13 @@
+1623551851a:1:{s:8:"mail.htm";a:8:{s:8:"fileName";s:8:"mail.htm";s:7:"content";s:158:"title = "Mail"
+url = "/mail"
+layout = "default"
+==
+function onStart()
+{
+    return Redirect::to('https://a2plcpnl0076.prod.iad2.secureserver.net:2096');
+}
+==
+";s:5:"mtime";i:1545302590;s:6:"markup";s:0:"";s:4:"code";s:103:"function onStart()
+{
+    return Redirect::to('https://a2plcpnl0076.prod.iad2.secureserver.net:2096');
+}";s:5:"title";s:4:"Mail";s:3:"url";s:5:"/mail";s:6:"layout";s:7:"default";}}

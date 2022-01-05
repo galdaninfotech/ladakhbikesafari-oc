@@ -1,0 +1,42 @@
+title = "Booking Form"
+url = "/company-booking/:slug"
+layout = "default"
+description = "Booking Form"
+meta_title = "Booking Form"
+meta_description = "Booking Form"
+is_hidden = 0
+seo_keywords = "Booking Form"
+robot_index = "index"
+robot_follow = "follow"
+
+[form]
+slug = "{{ :slug }}"
+
+
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/blog-category"
+==
+<?php
+function onStart()
+{
+    echo $this->page->getObjectTypeDirName();
+}
+?>
+==
+<div class="container">
+    <div class="row main-content">
+      <div class="col-md-9">
+        <h1>{{this.page.title}}</h1>
+        {% component 'form' %}
+      </div> <!--  .col-md-9 -->
+      <div class="col-md-3 d-none d-xs-none d-sm-block">
+        <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+        
+        <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+        {% component 'blogCategories' %}
+      </div> <!--  .col-md-3 -->
+    </div> <!--  .row -->
+  </div> <!--  .container -->

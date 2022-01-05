@@ -1,0 +1,45 @@
+title = "About"
+url = "/company-about"
+layout = "default"
+meta_title = "About Us"
+meta_description = "About Us"
+is_hidden = 0
+seo_keywords = "About Us"
+robot_index = "index"
+robot_follow = "follow"
+
+
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/blog-category"
+==
+<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}} Us - {{ company }}</h1>
+      <strong>If you travel, it must be to seek difference. This difference is made by {{company}} .</strong>
+      <p>Plan your perfect trip to the mesmerising Ladakh with {{company}}. The thrill of finding oneself in the midst of snowy peaks,
+        glaciers, unparalleled slopes, crystal clear river and lust green fields of wild flowers is an unmatched experience. Ladakh is liked by all, whether it is an eager traveler, a fun visitor, an adventure lover, an environmentalist, a wildlife
+        researcher, a photographer or a monk in search of peace. Great care and concern is shown for Nature during in our biking
+        tours! Count on us to provide all the elements of an exciting adventure, vacation getaway while balancing yours schedule, budget
+        and interests.</p>
+        <p>Ladakh bike safari is a locally based Ladakhi company with dedicated local employees working under the supervision of Local managers who are acquainted with the years of experience in handling and organizing such motorbiking expeditions.
+        <br>
+        <br>
+No one knows Ladakh better than us as it is our land. <br><br>Our motto here at Ladakh bike safari is to provide our esteem clients with the best of services and the best of price as we do organize the tours ourselves with complete dedication.</p>
+      <p>
+        <strong>{{company}}</strong> warmly invites you explore Ladakh and discover your ideas travel-experience. Experience that is uniquely
+        yours own. We are glad to have served our valued guests from Spain, Italy, France, Germany, Russia, United States of America,
+        Canada, Argentina, Chile, Brazil, Mexico, Israel, Thailand, Singapore, India and other countries. So don’t miss your chance.</p>
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->

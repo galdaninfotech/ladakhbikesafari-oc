@@ -1,0 +1,357 @@
+1625560758a:1:{s:11:"default.htm";a:11:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:6376:"description = "Default layout"
+
+[SeoCmsPage]
+
+[session]
+security = "all"
+
+[menu]
+start = "id-1"
+activeNode = 0
+listItemClasses = "nav-item"
+primaryClasses = "navbar-nav"
+secondaryClasses = "dropdown-menu"
+numberOfLevels = 2
+
+[homeslideshow]
+
+[destinationsfooter]
+
+==
+<?php
+function onStart() {
+    $config = App::make('config');
+    $this['debug'] = $config->get('app.debug');
+    $this['company'] = $config->get('site.company', 'Company Name');
+    $this['company_sm'] = $config->get('site.company_sm');
+    $this['slogan'] = $config->get('site.slogan', 'Company Slogan');
+    $this['mobile1'] = $config->get('site.mobile1');
+    $this['mobile2'] = $config->get('site.mobile2');
+    $this['phone'] = $config->get('site.phone');
+    $this['email1'] = $config->get('site.email1');
+    $this['email2'] = $config->get('site.email2');
+    $this['addressline1'] = $config->get('site.addressline1');
+    $this['addressline2'] = $config->get('site.addressline2');
+}
+?>
+==
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset='UTF-8'>
+<meta name="theme-color" content="#317EFB"/>
+<link rel="manifest" href="/manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" type="image/png" href="{{ 'assets/images/fevicon-16x16.png'|theme }}">
+<meta name="google-site-verification" content="uzBB5zaPMBXgA2CjVfMTNJGD6E81QYLAF-_Rin7PcDE" />
+
+{% placeholder meta %}
+{% component 'SeoCmsPage' %}
+
+<style>
+    body {background-color: #070707;}
+</style>
+
+{% if debug == false %}
+    <link href="{{'assets/css/animate/animate.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/jssocials/jssocials.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/jssocials/jssocials-theme-flat.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/reservation-panel.css'|theme}}" rel="stylesheet">
+<link href="{{'assets/css/bikes.css'|theme}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{'assets/scss/_custom.scss'|theme }}">
+{% else %}
+    <link href="{{ [
+        'assets/css/animate/animate.min.css',
+        'assets/css/jssocials/jssocials.css',
+        'assets/css/jssocials/jssocials-theme-flat.css',
+        'assets/css/reservation-panel.css',
+'assets/css/bikes.css',
+        'assets/scss/_custom.scss'
+    ]|theme }}" rel="stylesheet">
+{% endif %}
+
+
+{% styles %}
+        
+<!-- for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="http://html5shiv .googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+</head>
+<body>
+
+<section id="header">{% partial 'site/header' %}</section>
+{% if this.page.title == 'Home' %}
+        <section id="slideshow">{% component 'homeslideshow' %}</section>
+    {% endif %}
+<section id="page">{% page %}</section>
+<section id="footer">{% partial 'site/footer' %}</section>
+
+<script src="{{ [
+    'assets/javascript/jquery.js',
+    'assets/javascript/bootstrap.bundle.min.js',
+    '@framework',
+    '@framework.extras',
+    'assets/javascript/custom.js'
+]|theme }}"></script>
+{% scripts %}
+
+<script type="text/javascript" src="{{ ['assets/javascript/jssocials/jssocials.min.js']|theme }}"></script>
+<script>
+    $("#share").jsSocials({
+        showCount: false,
+        shares: ["facebook", "twitter", "whatsapp"]
+    });
+
+
+</script>
+
+<script src="/service-worker.js"></script>
+<script>
+
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').then(response => {
+        console.log('Service Worker registered.')
+    }).catch(error => {
+        console.error(error)
+    })
+    }
+
+
+
+
+
+</script>
+
+</body>
+</html>
+
+<script>
+$(document).ready(function () {
+    $('#navbarNavDropdown > ul > li.dropdown.nav-item').on('click', function(){
+        $(this).children('ul').prepend('<li style="padding-left: 12%; font-size: 12px; color:#eebc35"></li>')
+    });
+
+    
+
+    $('#navbarNavDropdown li.packages').each(function(){
+        $(this).on('mouseover', function(){
+            var title = $(this).children('a').text();
+            
+            title = $.trim(title);
+            var elem = $(this);
+            switch (title) {
+                case "CAMPING & RIDING LADAKH":
+                    $(elem).siblings('li:nth-child(1)').html('07N / 08D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 21000/-');
+                    break;
+                case "LADAKH BIKE TOUR":
+                    $(elem).siblings('li:nth-child(1)').html('08N / 09D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 19500/-');
+                    break;
+
+                case "MANALI LEH BIKING":
+                    $(elem).siblings('li:nth-child(1)').html('09 N / 10D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 21500/-');
+                    break;
+                
+                case "LADAKH BIKING ADVENTURE":
+                    $(elem).siblings('li:nth-child(1)').html('09 N / 10D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 21500/-');
+                    break;
+                
+                case "LADAKH DELIGHT":
+                    $(elem).siblings('li:nth-child(1)').html('05 N / 06D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 16500/-');
+                    break;
+
+                case "AMAZING LADAKH":
+                    $(elem).siblings('li:nth-child(1)').html('05 N / 06D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 17500/-');
+                    break;
+                
+                case "MAGICAL LADAKH":
+                    $(elem).siblings('li:nth-child(1)').html('07 N / 08D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 22000/-');
+                    break;
+                
+                case "LADAKH LUXURY PACKAGE":
+                    $(elem).siblings('li:nth-child(1)').html('07 N / 08D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 53500/-');
+                    break;
+                
+                
+
+                default:
+                    $(elem).siblings('li:nth-child(1)').html('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+                } 
+        });
+    });
+
+    
+
+});
+</script>";s:5:"mtime";i:1623550839;s:6:"markup";s:5411:"<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset='UTF-8'>
+<meta name="theme-color" content="#317EFB"/>
+<link rel="manifest" href="/manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" type="image/png" href="{{ 'assets/images/fevicon-16x16.png'|theme }}">
+<meta name="google-site-verification" content="uzBB5zaPMBXgA2CjVfMTNJGD6E81QYLAF-_Rin7PcDE" />
+
+{% placeholder meta %}
+{% component 'SeoCmsPage' %}
+
+<style>
+    body {background-color: #070707;}
+</style>
+
+{% if debug == false %}
+    <link href="{{'assets/css/animate/animate.min.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/jssocials/jssocials.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/jssocials/jssocials-theme-flat.css'|theme}}" rel="stylesheet">
+    <link href="{{'assets/css/reservation-panel.css'|theme}}" rel="stylesheet">
+<link href="{{'assets/css/bikes.css'|theme}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{'assets/scss/_custom.scss'|theme }}">
+{% else %}
+    <link href="{{ [
+        'assets/css/animate/animate.min.css',
+        'assets/css/jssocials/jssocials.css',
+        'assets/css/jssocials/jssocials-theme-flat.css',
+        'assets/css/reservation-panel.css',
+'assets/css/bikes.css',
+        'assets/scss/_custom.scss'
+    ]|theme }}" rel="stylesheet">
+{% endif %}
+
+
+{% styles %}
+        
+<!-- for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+    <script src="http://html5shiv .googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+</head>
+<body>
+
+<section id="header">{% partial 'site/header' %}</section>
+{% if this.page.title == 'Home' %}
+        <section id="slideshow">{% component 'homeslideshow' %}</section>
+    {% endif %}
+<section id="page">{% page %}</section>
+<section id="footer">{% partial 'site/footer' %}</section>
+
+<script src="{{ [
+    'assets/javascript/jquery.js',
+    'assets/javascript/bootstrap.bundle.min.js',
+    '@framework',
+    '@framework.extras',
+    'assets/javascript/custom.js'
+]|theme }}"></script>
+{% scripts %}
+
+<script type="text/javascript" src="{{ ['assets/javascript/jssocials/jssocials.min.js']|theme }}"></script>
+<script>
+    $("#share").jsSocials({
+        showCount: false,
+        shares: ["facebook", "twitter", "whatsapp"]
+    });
+
+
+</script>
+
+<script src="/service-worker.js"></script>
+<script>
+
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js').then(response => {
+        console.log('Service Worker registered.')
+    }).catch(error => {
+        console.error(error)
+    })
+    }
+
+
+
+
+
+</script>
+
+</body>
+</html>
+
+<script>
+$(document).ready(function () {
+    $('#navbarNavDropdown > ul > li.dropdown.nav-item').on('click', function(){
+        $(this).children('ul').prepend('<li style="padding-left: 12%; font-size: 12px; color:#eebc35"></li>')
+    });
+
+    
+
+    $('#navbarNavDropdown li.packages').each(function(){
+        $(this).on('mouseover', function(){
+            var title = $(this).children('a').text();
+            
+            title = $.trim(title);
+            var elem = $(this);
+            switch (title) {
+                case "CAMPING & RIDING LADAKH":
+                    $(elem).siblings('li:nth-child(1)').html('07N / 08D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 21000/-');
+                    break;
+                case "LADAKH BIKE TOUR":
+                    $(elem).siblings('li:nth-child(1)').html('08N / 09D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 19500/-');
+                    break;
+
+                case "MANALI LEH BIKING":
+                    $(elem).siblings('li:nth-child(1)').html('09 N / 10D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 21500/-');
+                    break;
+                
+                case "LADAKH BIKING ADVENTURE":
+                    $(elem).siblings('li:nth-child(1)').html('09 N / 10D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 21500/-');
+                    break;
+                
+                case "LADAKH DELIGHT":
+                    $(elem).siblings('li:nth-child(1)').html('05 N / 06D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 16500/-');
+                    break;
+
+                case "AMAZING LADAKH":
+                    $(elem).siblings('li:nth-child(1)').html('05 N / 06D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 17500/-');
+                    break;
+                
+                case "MAGICAL LADAKH":
+                    $(elem).siblings('li:nth-child(1)').html('07 N / 08D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 22000/-');
+                    break;
+                
+                case "LADAKH LUXURY PACKAGE":
+                    $(elem).siblings('li:nth-child(1)').html('07 N / 08D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-rupee-sign"></i> 53500/-');
+                    break;
+                
+                
+
+                default:
+                    $(elem).siblings('li:nth-child(1)').html('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+                } 
+        });
+    });
+
+    
+
+});
+</script>";s:4:"code";s:685:"function onStart() {
+    $config = App::make('config');
+    $this['debug'] = $config->get('app.debug');
+    $this['company'] = $config->get('site.company', 'Company Name');
+    $this['company_sm'] = $config->get('site.company_sm');
+    $this['slogan'] = $config->get('site.slogan', 'Company Slogan');
+    $this['mobile1'] = $config->get('site.mobile1');
+    $this['mobile2'] = $config->get('site.mobile2');
+    $this['phone'] = $config->get('site.phone');
+    $this['email1'] = $config->get('site.email1');
+    $this['email2'] = $config->get('site.email2');
+    $this['addressline1'] = $config->get('site.addressline1');
+    $this['addressline2'] = $config->get('site.addressline2');
+}";s:11:"description";s:14:"Default layout";s:10:"SeoCmsPage";a:0:{}s:7:"session";a:1:{s:8:"security";s:3:"all";}s:4:"menu";a:6:{s:5:"start";s:4:"id-1";s:10:"activeNode";s:1:"0";s:15:"listItemClasses";s:8:"nav-item";s:14:"primaryClasses";s:10:"navbar-nav";s:16:"secondaryClasses";s:13:"dropdown-menu";s:14:"numberOfLevels";s:1:"2";}s:13:"homeslideshow";a:0:{}s:18:"destinationsfooter";a:0:{}}}

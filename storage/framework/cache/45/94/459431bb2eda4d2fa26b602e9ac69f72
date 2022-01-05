@@ -1,0 +1,57 @@
+1640579224a:1:{s:13:"blog/blog.htm";a:17:{s:8:"fileName";s:13:"blog/blog.htm";s:7:"content";s:1141:"title = "Blog"
+url = "/blog"
+layout = "default"
+meta_title = "Blog"
+meta_description = "Blog"
+is_hidden = 0
+seo_keywords = "Blog"
+robot_index = "index"
+robot_follow = "follow"
+
+[SeoTourPost]
+post = "post"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/blog-category"
+postPage = "blog/blog-post"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 1
+categoryPage = "blog/blog-category"
+
+==
+<div class="container">
+    <div class="row main-content">
+      <div class="col-md-9">
+        <h1>{{this.page.title}}</h1>
+        {% component 'blogPosts' %}
+        {% component 'SeoTourPost' data=post %}
+      </div> <!--  .col-md-9 -->
+      <div class="col-md-3 d-none d-xs-none d-sm-block">
+        <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+        
+        <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+        {% component 'blogCategories' %}
+      </div> <!--  .col-md-3 -->
+    </div> <!--  .row -->
+  </div> <!--  .container -->
+";s:5:"mtime";i:1623545398;s:6:"markup";s:623:"<div class="container">
+    <div class="row main-content">
+      <div class="col-md-9">
+        <h1>{{this.page.title}}</h1>
+        {% component 'blogPosts' %}
+        {% component 'SeoTourPost' data=post %}
+      </div> <!--  .col-md-9 -->
+      <div class="col-md-3 d-none d-xs-none d-sm-block">
+        <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+        
+        <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+        {% component 'blogCategories' %}
+      </div> <!--  .col-md-3 -->
+    </div> <!--  .row -->
+  </div> <!--  .container -->";s:4:"code";N;s:5:"title";s:4:"Blog";s:3:"url";s:5:"/blog";s:6:"layout";s:7:"default";s:10:"meta_title";s:4:"Blog";s:16:"meta_description";s:4:"Blog";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:4:"Blog";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:11:"SeoTourPost";a:1:{s:4:"post";s:4:"post";}s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:18:"blog/blog-category";s:8:"postPage";s:14:"blog/blog-post";}s:14:"blogCategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"1";s:12:"categoryPage";s:18:"blog/blog-category";}}}

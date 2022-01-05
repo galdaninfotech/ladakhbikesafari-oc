@@ -1,0 +1,23 @@
+
+{% set destination = __SELF__.destination %}
+
+<h1>{{ destination.name }}</h1>
+
+<div id="destination-wrapper">
+	{% if destination.featured_images.count %}
+		{% for image in destination.featured_images %}
+			{% if loop.first %}
+				<div class="item">
+					<img
+						data-src="{{ image.filename }}"
+						src="{{ image.path }}"
+						alt="{{ image.description }}"
+						style="max-width: 100%" />
+				</div>
+			{% endif %}
+        {% endfor %}
+	{% endif %}
+	
+	<p class="mt-4 mb-4">{{ destination.description }}</p>   
+  
+</div> <!-- end Destination wrapper -->

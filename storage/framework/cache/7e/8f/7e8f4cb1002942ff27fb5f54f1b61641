@@ -1,0 +1,61 @@
+1625560757a:1:{s:8:"home.htm";a:14:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1487:"title = "Home"
+url = "/"
+layout = "default"
+meta_title = "Unmatched Biking Tour"
+meta_description = "Ladakh Bike Safari"
+is_hidden = 0
+seo_keywords = "Ladakh Bike Safari"
+robot_index = "index"
+robot_follow = "follow"
+
+
+==
+<div class="container" id="main-content-wrapper">
+  <div class="row main-content">
+    <div class="col-xl-12 d-none d-xs-none d-xl-block">{% partial 'site/quickform' %}</div>
+    <div id="home-welcome-message" class="col d-sm-none mb-5">
+      <h1>{{company}}</h1>
+      <p class="hyphenate">Plan your perfect trip to the mesmerising Ladakh with {{company}}. The thrill of finding
+        oneself in the midst of snowy peaks, glaciers, unparalleled slopes, crystal clear river and lush green fields of
+        wild flowers is an unmatched experience. Ladakh is liked by all, whether it is an eager traveler, a fun visitor,
+        an adventure lover, an environmentalist, a wildlife
+        researcher, a photographer or a monk in search of peace. Great care and concern is shown for Nature during in
+        our biking tours! Count on us to provide all the elements of an exciting adventure, vacation getaway while
+        balancing yours schedule, budget
+        and interests.</p>
+    </div><!-- col -->
+    <div class="col-md-12 d-sm-block">
+      {% partial 'site/homepackages' %}
+
+    </div>
+    <div class="col-md-12 d-sm-block">
+      <h1 class="mt-5 mb-5">Our Bikes</h1>
+      {% partial 'site/our-bikes' %}
+
+    </div>
+  </div><!-- Main Content -->
+</div>";s:5:"mtime";i:1624494790;s:6:"markup";s:1265:"<div class="container" id="main-content-wrapper">
+  <div class="row main-content">
+    <div class="col-xl-12 d-none d-xs-none d-xl-block">{% partial 'site/quickform' %}</div>
+    <div id="home-welcome-message" class="col d-sm-none mb-5">
+      <h1>{{company}}</h1>
+      <p class="hyphenate">Plan your perfect trip to the mesmerising Ladakh with {{company}}. The thrill of finding
+        oneself in the midst of snowy peaks, glaciers, unparalleled slopes, crystal clear river and lush green fields of
+        wild flowers is an unmatched experience. Ladakh is liked by all, whether it is an eager traveler, a fun visitor,
+        an adventure lover, an environmentalist, a wildlife
+        researcher, a photographer or a monk in search of peace. Great care and concern is shown for Nature during in
+        our biking tours! Count on us to provide all the elements of an exciting adventure, vacation getaway while
+        balancing yours schedule, budget
+        and interests.</p>
+    </div><!-- col -->
+    <div class="col-md-12 d-sm-block">
+      {% partial 'site/homepackages' %}
+
+    </div>
+    <div class="col-md-12 d-sm-block">
+      <h1 class="mt-5 mb-5">Our Bikes</h1>
+      {% partial 'site/our-bikes' %}
+
+    </div>
+  </div><!-- Main Content -->
+</div>";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:21:"Unmatched Biking Tour";s:16:"meta_description";s:18:"Ladakh Bike Safari";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:18:"Ladakh Bike Safari";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

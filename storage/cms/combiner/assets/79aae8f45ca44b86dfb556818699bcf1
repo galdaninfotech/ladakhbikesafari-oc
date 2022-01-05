@@ -1,0 +1,200 @@
+/* Bikes on Front Page */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
+.snip1408 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+
+
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: none !important;
+}
+.snip1408:first-of-type {
+
+}
+.snip1408 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1408 .image {
+  padding: 15px 0;
+}
+.snip1408 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  position: relative;
+  opacity: 0.7;
+}
+.snip1408 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1408 h4,
+.snip1408 p {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+.snip1408 h4 {
+  top: 0;
+  line-height: 1.1em;
+  font-weight: 900;
+  background-color: #0d0d0d;
+  text-transform: uppercase;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.snip1408 p {
+  bottom: 0;
+  background-color: #0d0d0d;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  font-size: 0.8em;
+}
+.snip1408 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1408:hover img,
+.snip1408.hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 1;
+}
+.snip1408:hover h4,
+.snip1408.hover h4,
+.snip1408:hover p,
+.snip1408.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* Bike Spcefication */
+td.specification-title {
+  font-weight: bold;
+}
+
+
+/* this one goes for default images - bigger sizes */
+@media all and (min-width: 1024px) {
+.snip1408 {
+  width: 280px;
+  margin-right: 2px;
+}
+.snip1365 {
+  margin: 10px 1px;
+  min-width: 230px;
+  max-width: 275px;
+}
+}
+
+
+
+
+
+
+
+
+/* Featured Left */
+#bikessidebar {
+    text-align: center;
+    background: #030f27;
+    list-style: none;
+    margin: 0px 2px 22px 2px;
+    padding: 14px;
+    -webkit-transition-duration: 0.9s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-duration: 0.9s;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.9s;
+    -o-transition-timing-function: ease-out;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-out;
+}
+#bikessidebar:hover {
+    background: #102B46;
+    cursor: pointer;
+}
+#bikessidebar .thumbnail {
+    border: none;
+    margin-bottom: 6px;
+}
+#bikessidebar .thumbnail img {
+    max-width: 222px;
+}
+#bikessidebar .meta {
+    border-top: 1px dotted #ccc;
+    padding: 16px;
+    position: relative;
+    margin-top: 5px;
+}
+#bikessidebar .ftitle a {
+    font: normal 16px 'Oswald', Helvetica, Arial, Sans-Serif;
+    height: 24px;
+    color: #DCDCDC;
+}
+#bikessidebar .date {
+    color: #DCDCDC;
+    margin-top: -8px;
+}
+#bikessidebar .bikes .plus {
+    width: 138px;
+    height: 24px;
+    position: absolute;
+    right: -5px;
+    top: 90px;
+}
+a.readmorebox {
+    color: #DCDCDC;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#bikessidebar:hover a {
+    color: #DCDCDC;
+}
+
+a.readmorebox:hover {
+    padding: 0 30px;
+    color: #DCDCDC;
+    margin-right: 5px;
+}
+a.readmorebox {
+    color: #DCDCDC;
+    font-family: 'Oswald';
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    height: 22px;
+    padding: 0 10px;
+    margin-right: 5px;
+    text-shadow: 1px 1px 1px #0a0a0a;
+}
+a.readmorebox {
+    color: #DCDCDC;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}

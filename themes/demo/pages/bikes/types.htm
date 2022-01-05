@@ -1,0 +1,40 @@
+title = "Bike Type"
+url = "/bike/type/:slug"
+layout = "default"
+meta_title = "Bike Type"
+meta_description = "Bike Type"
+is_hidden = 0
+seo_keywords = "Bike Type"
+robot_index = "index"
+robot_follow = "follow"
+
+
+[SeoTourPost]
+post = "post"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/blog-category"
+
+[bikeType]
+slug = "{{ :slug }}"
+displayEmpty = 1
+typePage = "{{ bikes/types }}"
+
+
+==
+<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      {% component 'bikeType' data=post %}
+      {% component 'SeoTourPost' data=post %}
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->

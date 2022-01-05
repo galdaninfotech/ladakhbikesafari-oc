@@ -1,0 +1,53 @@
+1625557783a:1:{s:15:"bikes/types.htm";a:17:{s:8:"fileName";s:15:"bikes/types.htm";s:7:"content";s:1009:"title = "Bike Type"
+url = "/bike/type/:slug"
+layout = "default"
+meta_title = "Bike Type"
+meta_description = "Bike Type"
+is_hidden = 0
+seo_keywords = "Bike Type"
+robot_index = "index"
+robot_follow = "follow"
+
+
+[SeoTourPost]
+post = "post"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/blog-category"
+
+[bikeType]
+slug = "{{ :slug }}"
+displayEmpty = 1
+typePage = "{{ bikes/types }}"
+
+
+==
+<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      {% component 'bikeType' data=post %}
+      {% component 'SeoTourPost' data=post %}
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:5:"mtime";i:1623545473;s:6:"markup";s:568:"<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      {% component 'bikeType' data=post %}
+      {% component 'SeoTourPost' data=post %}
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:4:"code";N;s:5:"title";s:9:"Bike Type";s:3:"url";s:16:"/bike/type/:slug";s:6:"layout";s:7:"default";s:10:"meta_title";s:9:"Bike Type";s:16:"meta_description";s:9:"Bike Type";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:9:"Bike Type";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:11:"SeoTourPost";a:1:{s:4:"post";s:4:"post";}s:14:"blogCategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"0";s:12:"categoryPage";s:18:"blog/blog-category";}s:8:"bikeType";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"1";s:8:"typePage";s:17:"{{ bikes/types }}";}}}

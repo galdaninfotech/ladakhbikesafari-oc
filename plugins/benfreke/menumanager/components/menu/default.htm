@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        {% if parentNode and parentNode.getChildCount %}
+        <ul class="{{ primaryClasses }}">
+            {% for primaryNav in parentNode.getChildren %}
+                {% if primaryNav.enabled %}
+                    {% if primaryNav.getChildCount and numberOfLevels > 1 %}
+                        <li class="dropdown {{ listItemClasses }} {{ primaryNav.getListItemClasses(activeLeft, activeRight) }}">
+                            <a href="{{ primaryNav.getLinkHref }}" target="{{ primaryNav.getLinkTarget }}" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {{ primaryNav.title }}
+                            </a>
+                    {% else %}
+                        <li class="{{ listItemClasses }} {{ primaryNav.getListItemClasses(activeLeft, activeRight) }}">
+                            <a href="{{ primaryNav.getLinkHref }}" target="{{ primaryNav.getLinkTarget }}" class="nav-link" aria-haspopup="true" aria-expanded="false">
+                                {{ primaryNav.title }}
+                            </a>
+                    {% endif %}
+                    {% if primaryNav.getChildCount and numberOfLevels > 1 %}
+                        <ul class="{{ secondaryClasses }}">
+                            {% for secondaryNav in primaryNav.getChildren %}
+                                {% if secondaryNav.enabled %}
+                                    <li class="packages {{ listItemClasses }} {{ secondaryNav.getListItemClasses(activeLeft, activeRight) }}">
+                                        {% if primaryNav.title  == 'Biking Adventures' %}<span>12 N/ 13 D  Rs.45000/-</span>
+                                            {% if secondaryNav.title  == 'Camping & Riding Ladakh' %}
+                                                <span>12 N/ 13 D  Rs.45000/-</span>
+                                            {% elseif secondaryNav.title  == 'Ladakh Bike Tour' %}
+                                                <span>16 N/ 17 D  Rs.65,500/-</span>
+                                            {% endif %}
+                                        {% endif %}
+                                        <a href="{{ secondaryNav.getLinkHref }}" target="{{ secondaryNav.getLinkTarget }}" class="dropdown-item">
+                                            {{ secondaryNav.title }}
+                                        </a>
+                                        {% if secondaryNav.getChildCount and numberOfLevels > 2 %}
+                                            <ul class="{{ tertiaryClasses }}">
+                                                {% for tertiaryNav in secondaryNav.getChildren %}
+                                                    {% if tertiaryNav.enabled %}
+                                                        <li class="{{ listItemClasses }} {{ tertiaryNav.getListItemClasses(activeLeft, activeRight) }}">
+                                                            <a href="{{ tertiaryNav.getLinkHref }}" target="{{ tertiaryNav.getLinkTarget }}">
+                                                                {{ tertiaryNav.title }}
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </ul>
+                                        {% endif %}
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                        </li>
+                {% endif %}
+            {% endfor %}    
+        </ul>
+        {% endif %}
+    </div>
+</nav>
+

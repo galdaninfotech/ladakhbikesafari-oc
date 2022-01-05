@@ -1,0 +1,43 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+tabs:
+  fields:
+
+      name:
+        label: Name
+        span: left
+        tab: Edit
+
+      slug:
+        label: Slug
+        span: right
+        placeholder: Slug
+        tab: Edit
+        preset:
+            field: name
+            type: slug
+
+      type:
+        label: Destination Type.
+        type: relation
+        tab: Edit
+
+      description:
+        label: Description.
+        type: textarea
+        size: large
+        tab: Edit
+
+      featured_images:
+            tab: Details
+            label: galdan.tour::lang.post.featured_images
+            type: fileupload
+            mode: image
+            imageWidth: 200
+            imageHeight: 200
+
+
+      
+
+

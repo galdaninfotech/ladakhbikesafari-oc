@@ -1,0 +1,233 @@
+1623551851a:1:{s:12:"tour-faq.htm";a:12:{s:8:"fileName";s:12:"tour-faq.htm";s:7:"content";s:4981:"title = "Tour FAQ"
+url = "/tour-faq"
+layout = "default"
+description = "Frequently asked questions about the tours"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+==
+<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}} </h1>
+      <strong>If you travel, it must be to seek difference. This difference is made by {{company}} .</strong>
+      <p><div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}} </h1>
+      <p> Q How can i reach LADAKH or MANALI ?<br>
+
+Leh is connected to the major cities Like DeLhi, Jammu & Srinagar by Airways with all the major operators Like Air India ,Jet & Go Air Have their daily flights from Delhi whereas from Jammu & Srinagar they operate for two days in a week. And during Summer National Highways are also open both from Srinagar (April to November) and Manali(May to October) so one can also reach Leh by road.<br>
+
+Manali - Nearest airport falls in a city of Bunter (Kullu)which is about an hour drive from Manali and its connected with train also and the road remain open throughout the year for Manali and runs daily voivo bus from Delhi / Chandigarh.
+<br>
+<br>
+Q Where I will meet the team ?<br>
+
+Riders / Participants , will visit the said hotels / guest house, for Manali Leh tour and vice versa where our team member will welcome you , whereas in custom made tour and all other tours our representative will be there to receive you at the airport.In case of confusion on stations you can call us to 9622958013.
+<br>
+<br>
+Q What is backup vehicle support ?<br>
+
+While touring in Himalayas without backup vehicle it could not be successful ,As backup plays an important role in carrying client luggages , Bike spae parts & extra fuel etc.
+<br>
+<br>
+Q Unfortunately if I have to Leave the tour in between ?<br>
+
+Yes you can Leave the tour in between in case of any emergency but from us there will be no refund in such cases.
+<br>
+<br>
+Q Is network connectivity falls throughout the tour ?<br>
+
+Network connectivity will be in Manali , Keylong , Leh , Nubra , and Pangong (Lukung).
+<br>
+<br>
+Q Can I travel in backup vehicle too ?<br>
+
+Yes you can comfortably travel in back up vehicle ,in case if you get sick, having pain or might little bit tired from riding.<br>
+<br>
+Q Which document i have to carry?<br>
+
+You have to carry your driving Licence and a valid iD proof like voter id /Adhar card/passport etc.
+<br>
+<br>
+Q Is this tour safe in all round ?<br>
+
+Tour is totally safe for any one with fully backup vehicle support & team. Else you might stuck in the middle of nowhere.
+<br>
+<br>
+Q Which kind of riding experience ?<br>
+
+Rider must have at least an experience of 2000 KMS ridden before.
+<br>
+<br>
+Q Health tips ?<br>
+
+Rider must be acclimatised for high altitude before tour and should be physically and mentally fit.
+<br>
+<br>
+Q Which bike I will gone ride in this tour ?<br>
+
+You will ride Royal Enfieid 500cc standard.
+<br>
+<br>
+Q Atm availability ?<br>
+
+Atms are available only in Manali , Keylong and Leh.
+<br>
+<br>
+Q In case of road blockage due to land slide or huge water flow ?<br>
+
+in case of any road blockage due to some natural calamities which stuck our tour and stop us to go any further, So in case if there is any alternative route then we’ll follow that though we might have to cover more distance but it doesn’t matter , and if the blockage leave us with not a single option then tour leader will decide whether to stay or go back.
+<br>
+<br>
+Q Bike with which side gear shift?<br>
+
+Bike with gear shift on left side.
+<br>
+<br>
+Q How about money exchange ?<br>
+
+You will get Money Exchange in Leh & Manali only.
+<br>
+<br>
+Q Can we use credit cards ?<br>
+
+No, only cash or account transfer is possible, Need 40% of the total amount in advance for book your tour & remaining 60% before departure.
+<br>
+<br>
+Q Is it necessary that I should be in the proper riding gear ?<br>
+
+Yes its necessary from safety point of view and you will be more comfortable in its own gears.</p>
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container --></p>
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:5:"mtime";i:1623545315;s:6:"markup";s:4795:"<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}} </h1>
+      <strong>If you travel, it must be to seek difference. This difference is made by {{company}} .</strong>
+      <p><div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}} </h1>
+      <p> Q How can i reach LADAKH or MANALI ?<br>
+
+Leh is connected to the major cities Like DeLhi, Jammu & Srinagar by Airways with all the major operators Like Air India ,Jet & Go Air Have their daily flights from Delhi whereas from Jammu & Srinagar they operate for two days in a week. And during Summer National Highways are also open both from Srinagar (April to November) and Manali(May to October) so one can also reach Leh by road.<br>
+
+Manali - Nearest airport falls in a city of Bunter (Kullu)which is about an hour drive from Manali and its connected with train also and the road remain open throughout the year for Manali and runs daily voivo bus from Delhi / Chandigarh.
+<br>
+<br>
+Q Where I will meet the team ?<br>
+
+Riders / Participants , will visit the said hotels / guest house, for Manali Leh tour and vice versa where our team member will welcome you , whereas in custom made tour and all other tours our representative will be there to receive you at the airport.In case of confusion on stations you can call us to 9622958013.
+<br>
+<br>
+Q What is backup vehicle support ?<br>
+
+While touring in Himalayas without backup vehicle it could not be successful ,As backup plays an important role in carrying client luggages , Bike spae parts & extra fuel etc.
+<br>
+<br>
+Q Unfortunately if I have to Leave the tour in between ?<br>
+
+Yes you can Leave the tour in between in case of any emergency but from us there will be no refund in such cases.
+<br>
+<br>
+Q Is network connectivity falls throughout the tour ?<br>
+
+Network connectivity will be in Manali , Keylong , Leh , Nubra , and Pangong (Lukung).
+<br>
+<br>
+Q Can I travel in backup vehicle too ?<br>
+
+Yes you can comfortably travel in back up vehicle ,in case if you get sick, having pain or might little bit tired from riding.<br>
+<br>
+Q Which document i have to carry?<br>
+
+You have to carry your driving Licence and a valid iD proof like voter id /Adhar card/passport etc.
+<br>
+<br>
+Q Is this tour safe in all round ?<br>
+
+Tour is totally safe for any one with fully backup vehicle support & team. Else you might stuck in the middle of nowhere.
+<br>
+<br>
+Q Which kind of riding experience ?<br>
+
+Rider must have at least an experience of 2000 KMS ridden before.
+<br>
+<br>
+Q Health tips ?<br>
+
+Rider must be acclimatised for high altitude before tour and should be physically and mentally fit.
+<br>
+<br>
+Q Which bike I will gone ride in this tour ?<br>
+
+You will ride Royal Enfieid 500cc standard.
+<br>
+<br>
+Q Atm availability ?<br>
+
+Atms are available only in Manali , Keylong and Leh.
+<br>
+<br>
+Q In case of road blockage due to land slide or huge water flow ?<br>
+
+in case of any road blockage due to some natural calamities which stuck our tour and stop us to go any further, So in case if there is any alternative route then we’ll follow that though we might have to cover more distance but it doesn’t matter , and if the blockage leave us with not a single option then tour leader will decide whether to stay or go back.
+<br>
+<br>
+Q Bike with which side gear shift?<br>
+
+Bike with gear shift on left side.
+<br>
+<br>
+Q How about money exchange ?<br>
+
+You will get Money Exchange in Leh & Manali only.
+<br>
+<br>
+Q Can we use credit cards ?<br>
+
+No, only cash or account transfer is possible, Need 40% of the total amount in advance for book your tour & remaining 60% before departure.
+<br>
+<br>
+Q Is it necessary that I should be in the proper riding gear ?<br>
+
+Yes its necessary from safety point of view and you will be more comfortable in its own gears.</p>
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container --></p>
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:4:"code";N;s:5:"title";s:8:"Tour FAQ";s:3:"url";s:9:"/tour-faq";s:6:"layout";s:7:"default";s:11:"description";s:42:"Frequently asked questions about the tours";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

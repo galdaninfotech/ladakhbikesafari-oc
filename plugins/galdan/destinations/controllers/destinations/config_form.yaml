@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Destination
+
+# Model Form Field configuration
+form: $/galdan/destinations/models/destination/fields.yaml
+
+# Model Class name
+modelClass: Galdan\Destinations\Models\Destination
+
+# Default redirect location
+defaultRedirect: galdan/destinations/destinations
+
+# Create page
+create:
+    title: Create Destination
+    redirect: galdan/destinations/destinations/update/:id
+    redirectClose: galdan/destinations/destinations
+
+# Update page
+update:
+    title: Edit Destination
+    redirect: galdan/destinations/destinations
+    redirectClose: galdan/destinations/destinations
+
+# Preview page
+preview:
+    title: Preview Destination

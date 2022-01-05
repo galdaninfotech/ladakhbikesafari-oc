@@ -1,0 +1,29 @@
+title = "Bike"
+url = "/bike/:slug"
+layout = "default"
+meta_title = "Bike"
+meta_description = "Bike"
+is_hidden = 0
+seo_keywords = "Bike"
+robot_index = "index"
+robot_follow = "follow"
+
+[bike]
+slug = "{{ :slug }}"
+
+
+
+==
+<div class="container">
+    <div class="row main-content">
+        <div class="col-md-9">
+        	{% component 'bike' %}
+        	
+        </div>
+        <div class="col-md-3">
+        	<div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+            
+        	{% component 'bikessidebar' %}
+    	</div>
+    </div>
+</div>

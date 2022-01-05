@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Type
+
+# Model Form Field configuration
+form: $/galdan/destinations/models/type/fields.yaml
+
+# Model Class name
+modelClass: Galdan\Destinations\Models\Type
+
+# Default redirect location
+defaultRedirect: galdan/destinations/types
+
+# Create page
+create:
+    title: Create Type
+    redirect: galdan/destinations/types/update/:id
+    redirectClose: galdan/destinations/types
+
+# Update page
+update:
+    title: Edit Type
+    redirect: galdan/destinations/types
+    redirectClose: galdan/destinations/types
+
+# Preview page
+preview:
+    title: Preview Type

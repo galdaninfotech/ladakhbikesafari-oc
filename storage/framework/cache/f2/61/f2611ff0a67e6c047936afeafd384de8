@@ -1,0 +1,8 @@
+1640579224a:1:{s:23:"site/header-contact.htm";a:5:{s:8:"fileName";s:23:"site/header-contact.htm";s:7:"content";s:249:"<ul id="header-contact" class="">
+    <li class=""><i class="fas fa-phone"></i><span>{{ mobile1 }} </span><span class="hidden-xs-down">/ {{ mobile2 }}</span></li>
+    <li class=""><i class="fas fa-envelope"></i> <span>{{ email1 }}</span></li>
+</ul>
+";s:5:"mtime";i:1551803392;s:6:"markup";s:248:"<ul id="header-contact" class="">
+    <li class=""><i class="fas fa-phone"></i><span>{{ mobile1 }} </span><span class="hidden-xs-down">/ {{ mobile2 }}</span></li>
+    <li class=""><i class="fas fa-envelope"></i> <span>{{ email1 }}</span></li>
+</ul>";s:4:"code";N;}}

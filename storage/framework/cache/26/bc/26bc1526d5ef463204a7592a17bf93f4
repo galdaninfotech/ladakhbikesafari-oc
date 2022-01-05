@@ -1,0 +1,51 @@
+1625560757a:1:{s:11:"contact.htm";a:17:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:789:"title = "Contact"
+url = "/contact/:bike?"
+layout = "default"
+meta_title = "Contact Us"
+meta_description = "Contact Us - Ladakh Bike Safari"
+is_hidden = 0
+seo_keywords = "Contact Us - Ladakh Bike Safari"
+robot_index = "index"
+robot_follow = "follow"
+
+[contact]
+
+[address]
+
+[SeoCmsPage]
+==
+function onStart()
+{
+    $bike = $this->param('bike');
+    //$bike = 'gggggggggg';
+}
+==
+<div class="container main-content">
+    <div class="row">
+        <div class="col-lg-6 address">
+            <h1>{{this.page.title }} Us</h1>
+            <div id="contact-us"> {% component 'address' %} </div>
+        </div>
+
+        <div class="col-lg-6 contact">
+            <h1>Send us a mail.</h1>
+            <div id="contact-us"> {% component 'contact' bike='bike' %} </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1543833848;s:6:"markup";s:413:"<div class="container main-content">
+    <div class="row">
+        <div class="col-lg-6 address">
+            <h1>{{this.page.title }} Us</h1>
+            <div id="contact-us"> {% component 'address' %} </div>
+        </div>
+
+        <div class="col-lg-6 contact">
+            <h1>Send us a mail.</h1>
+            <div id="contact-us"> {% component 'contact' bike='bike' %} </div>
+        </div>
+    </div>
+</div>";s:4:"code";s:84:"function onStart()
+{
+    $bike = $this->param('bike');
+    //$bike = 'gggggggggg';
+}";s:5:"title";s:7:"Contact";s:3:"url";s:15:"/contact/:bike?";s:6:"layout";s:7:"default";s:10:"meta_title";s:10:"Contact Us";s:16:"meta_description";s:31:"Contact Us - Ladakh Bike Safari";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:31:"Contact Us - Ladakh Bike Safari";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:7:"contact";a:0:{}s:7:"address";a:0:{}s:10:"SeoCmsPage";a:0:{}}}

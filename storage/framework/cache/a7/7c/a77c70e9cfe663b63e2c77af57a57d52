@@ -1,0 +1,40 @@
+1640579224a:1:{s:23:"ladakh/how-to-reach.htm";a:11:{s:8:"fileName";s:23:"ladakh/how-to-reach.htm";s:7:"content";s:709:"title = "How To Reach"
+url = "ladakh/how-to-reach"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+==
+<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}}</h1>
+      <p>How to reach.....</p>
+      
+      
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:5:"mtime";i:1623545312;s:6:"markup";s:569:"<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}}</h1>
+      <p>How to reach.....</p>
+      
+      
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:4:"code";N;s:5:"title";s:12:"How To Reach";s:3:"url";s:19:"ladakh/how-to-reach";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

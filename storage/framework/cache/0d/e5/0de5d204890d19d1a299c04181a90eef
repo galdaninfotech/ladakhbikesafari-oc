@@ -1,0 +1,54 @@
+1623551851a:1:{s:12:"new-page.htm";a:11:{s:8:"fileName";s:12:"new-page.htm";s:7:"content";s:1493:"title = "New page"
+url = "/new-page"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+==
+<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}} Us - {{ company }}</h1>
+      <strong>If you travel, it must be to seek difference. This difference is made by {{company}} .</strong>
+     
+      
+        <br>
+        <br>
+No one knows Ladakh better than us as it is our land. <br><br>Our motto here at Ladakh bike safari is to provide our esteem clients with the best of services and the best of price as we do organize the tours ourselves with complete dedication.</p>
+    
+        <strong>{{company}}</strong> warmly invites you explore Ladakh and discover your ideas travel-experience. Experience that is uniquely
+        yours own. We are glad to have served our valued guests from Spain, Italy, France, Germany, Russia, United States of America,
+        Canada, Argentina, Chile, Brazil, Mexico, Israel, Thailand, Singapore, India and other countries. So don’t miss your chance.</p>
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:5:"mtime";i:1623545311;s:6:"markup";s:1367:"<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      <h1>{{this.page.title}} Us - {{ company }}</h1>
+      <strong>If you travel, it must be to seek difference. This difference is made by {{company}} .</strong>
+     
+      
+        <br>
+        <br>
+No one knows Ladakh better than us as it is our land. <br><br>Our motto here at Ladakh bike safari is to provide our esteem clients with the best of services and the best of price as we do organize the tours ourselves with complete dedication.</p>
+    
+        <strong>{{company}}</strong> warmly invites you explore Ladakh and discover your ideas travel-experience. Experience that is uniquely
+        yours own. We are glad to have served our valued guests from Spain, Italy, France, Germany, Russia, United States of America,
+        Canada, Argentina, Chile, Brazil, Mexico, Israel, Thailand, Singapore, India and other countries. So don’t miss your chance.</p>
+      
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:4:"code";N;s:5:"title";s:8:"New page";s:3:"url";s:9:"/new-page";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

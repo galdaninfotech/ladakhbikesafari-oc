@@ -1,0 +1,11 @@
+{% set destinations = __SELF__.destinations %}
+
+<ul class="footer-ul-link">
+    {% for destination in destinations %}
+        {% if loop.index < 8 %}
+            <li><a href="{{ url('destinations/destination')}}/{{ destination.slug }}">{{ destination.name }}</a></li>
+        {% endif %}
+    {% else %}
+
+    {% endfor %}
+</ul>

@@ -1,0 +1,45 @@
+title = "Our Services"
+url = "/company/our-services"
+layout = "default"
+meta_title = "Our Services"
+meta_description = "Our Services"
+is_hidden = 0
+seo_keywords = "Our Services"
+robot_index = "index"
+robot_follow = "follow"
+
+
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/blog-category"
+
+
+==
+
+<div class="container">
+    <div class="row main-content">
+        <div class="col-md-9">
+            <h1>Our Services</h1>
+            <p>{{company}}  with the&nbsp;10 years of experience brings you all kinds of biking tour itinerary and biking tour related scope for its esteemed clients. We sell uniquely programmed biking tour packages. We have positioned ourselves as a niche service provider within the biking tour and packages and various guaranteed departures biking tours. Our services include<br>
+                </p>
+            <ul class="bullet">
+                <li>Biking Package</li>
+                <li>Family/Group biking tour packages</li>
+                <li>Cultural biking tour packages</li>
+                <li>Adventure Biking packages</li>
+                </ul>	
+
+            <p> Choose any biking activity that suits and pleases you, and travel in the company of experienced local guides and like-minded biking companions. We strive to provide you a service that goes beyond your expectations – journeys that will truly redefine your travel experience. </p>
+            <p> Please feel free to ask for further information about Ladakh and give us a chance to let you experience Himalayas and Ladakh. Tashi Deleks, Julley! </p>
+        
+        </div> <!--  .col-md-9 -->
+        <div class="col-md-3 d-none d-xs-none d-sm-block">
+        <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+        
+        <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+        {% component 'blogCategories' %}
+        </div> <!--  .col-md-3 -->
+    </div> <!--  .row -->
+</div> <!--  .container -->

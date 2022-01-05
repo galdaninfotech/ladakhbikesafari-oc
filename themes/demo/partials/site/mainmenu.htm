@@ -1,0 +1,174 @@
+[menu]
+start = "id-1"
+activeNode = 0
+listItemClasses = "nav-item"
+primaryClasses = "navbar-nav"
+secondaryClasses = "dropdown-menu"
+numberOfLevels = 2
+==
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="{{url('/')}}" target="_self" class="nav-link" aria-haspopup="true" aria-expanded="false">
+                Home
+                </a>
+            </li>
+            <li class="dropdown nav-item ">
+                <a href="{{url('/company-about')}}" target="_self" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="packages nav-item ">
+                        <a href="{{url('/company/our-services')}}" target="_self" class="dropdown-item">
+                        OUR SERVICES
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/company-about')}}" target="_self" class="dropdown-item">
+                        ABOUT US
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/ladakh/about-ladakh')}}" target="_self" class="dropdown-item">
+                        ABOUT LADAKH
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown nav-item ">
+                <a href="{{ url('/tours/manali-leh-biking') }}" target="_self" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Biking Adventures
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/tours/camping-and-riding-ladakh') }}" target="_self" class="dropdown-item">
+                        CAMPING &amp; RIDING LADAKH
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/tours/ladakh-bike-tour') }}" target="_self" class="dropdown-item">
+                        LADAKH BIKE TOUR
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/tours/manali-leh-biking') }}" target="_self" class="dropdown-item">
+                        MANALI LEH BIKING
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/tours/ladakh-biking-adventure') }}" target="_self" class="dropdown-item">
+                        LADAKH BIKING ADVENTURE
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/tours/tour-faq') }}" target="_self" class="dropdown-item">
+                        Tour FAQ
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown nav-item ">
+                <a href="{{ url('/') }}" target="_self" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PACKAGES
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/packages/ladakh-delight') }}" target="_self" class="dropdown-item">
+                        LADAKH DELIGHT
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/packages/amazing-ladakh') }}" target="_self" class="dropdown-item">
+                        AMAZING LADAKH
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/packages/magical-ladakh') }}" target="_self" class="dropdown-item">
+                        MAGICAL LADAKH
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{ url('/packages/ladakh-luxury-package') }}" target="_self" class="dropdown-item">
+                        LADAKH LUXURY PACKAGE
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown nav-item ">
+                <a href="#" target="_self" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination</a>
+                <ul class="dropdown-menu">
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/leh')}}" target="_self" class="dropdown-item">LEH</a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/khardong-la-pass-18380fts-worlds-highest-motor-able-road')}}" target="_self" class="dropdown-item">KHARDONG - LA PASS</a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/magnetic-hill')}}" target="_self" class="dropdown-item">MAGNETIC HILL</a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/alchi')}}" target="_self" class="dropdown-item">ALCHI</a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/lamayuru-monastery-moonland')}}" target="_self" class="dropdown-item">
+                        LAMAYURU MONASTERY</a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/pangong-lake')}}" target="_self" class="dropdown-item">
+                        PANGONG LAKE
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/nubra-valley')}}" target="_self" class="dropdown-item">
+                        NUBRA VALLEY
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/tsomoriri-lake')}}" target="_self" class="dropdown-item">
+                        TSOMORIRI LAKE
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/tsokar-lake')}}" target="_self" class="dropdown-item">
+                        TSOKAR LAKE
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/suru-valley')}}" target="_self" class="dropdown-item">
+                        SURU VALLEY
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/zangskar-valley')}}" target="_self" class="dropdown-item">
+                        ZANGSKAR VALLEY
+                        </a>
+                    </li>
+                    <li class="packages nav-item ">
+                        <a href="{{url('/destinations/destination/kargil')}}" target="_self" class="dropdown-item">
+                        KARGIL
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item ">
+                <a href="{{url('/rentalprices')}}" target="_self" class="nav-link" aria-haspopup="true" aria-expanded="false">
+                RENTAL
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="{{url('/gallery')}}" target="_self" class="nav-link" aria-haspopup="true" aria-expanded="false">
+                GALLERY
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="{{url('/contact')}}" target="_self" class="nav-link" aria-haspopup="true" aria-expanded="false">
+                CONTACT
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

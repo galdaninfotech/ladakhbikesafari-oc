@@ -1,0 +1,9 @@
+1625560759a:1:{s:18:"site/copyright.htm";a:5:{s:8:"fileName";s:18:"site/copyright.htm";s:7:"content";s:356:"<a class="privacy-policy" href="{{ url('privacy-policy') }}">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+<a href="{{ url('terms-of-use') }}">Terms Of Use</a>
+<h5 class="copyright">© 2010 - {{ "now"|date("Y") }} {{ company }}</h5><br>
+    All Right Reserved.<br>
+<a href="http://www.galdaninfotech.com/" target="_blank" rel="noopener">Galdan Infotech</a>";s:5:"mtime";i:1541868440;s:6:"markup";s:356:"<a class="privacy-policy" href="{{ url('privacy-policy') }}">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+<a href="{{ url('terms-of-use') }}">Terms Of Use</a>
+<h5 class="copyright">© 2010 - {{ "now"|date("Y") }} {{ company }}</h5><br>
+    All Right Reserved.<br>
+<a href="http://www.galdaninfotech.com/" target="_blank" rel="noopener">Galdan Infotech</a>";s:4:"code";N;}}

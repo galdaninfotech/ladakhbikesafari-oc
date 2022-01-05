@@ -1,0 +1,30 @@
+title = "Bikes"
+url = "/bikes"
+layout = "default"
+meta_title = "Bikes"
+meta_description = "Bikes"
+is_hidden = 0
+seo_keywords = "Bikes"
+robot_index = "index"
+robot_follow = "follow"
+
+[bikes]
+
+[SeoTourPost]
+post = "post"
+
+
+==
+<div class="container">
+    <div class="row main-content">
+        <div class="col-md-9">
+        	{% component 'bikes' %}
+        	
+        </div>
+        <div class="col-md-3">
+        	<div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+            
+        	{% partial 'site/right1' %}
+    	</div>
+    </div>
+</div>

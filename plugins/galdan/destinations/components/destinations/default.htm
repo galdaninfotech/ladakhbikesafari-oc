@@ -1,0 +1,61 @@
+{% set destinations = __SELF__.destinations %}
+
+<br>
+<br>
+<ul class="destination-list">
+    <div class="row">
+    {% for destination in destinations %}
+        <li>
+            <div class="col-md-9">
+                <h3><a href="destination/{{ destination.slug }}">{{ destination.name }}</a></h3>
+                <p class="info">
+                    Posted
+                    {% if destination.categories.count %} in {% endif %}
+                    on {{ destination.published_at|date('M d, Y') }}
+                </p>            
+                <p class="excerpt">{{ html_limit(destination.type.description, 250)|raw}}<a class="read-more" href="destination/{{ destination.slug }}" aria-label="{{ destination.name }}">... read more</a></p>
+            </div>
+
+            <!-- image -->
+            <div class="col-md-3">
+                {% if destination.featured_images.count %}
+                    {% set firstItem = destination.featured_images|first %}
+                    <div class="featured-images text-center">
+                        <br>
+                        <p>
+                            <img
+                                data-src="{{ firstItem.filename }}"
+                                src="{{ firstItem.path | resize(120,120,{ mode: 'crop', quality: '80', extension: 'jpg' })}}"
+                                alt="{{ firstItem.description }}" />
+                        </p>
+                    </div>
+                {% endif %}
+            </div>
+
+        </li>
+    {% else %}
+        <li class="no-data">{{ noPostsMessage }}</li>
+    {% endfor %}
+    </div>
+</ul>
+
+
+
+<!-- Pagination -->
+{% if destinations.lastPage > 1 %}
+    <ul class="pagination">
+        {% if destinations.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (destinations.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..destinations.lastPage %}
+            <li class="{{ destinations.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if destinations.lastPage > destinations.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (destinations.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}

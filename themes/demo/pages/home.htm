@@ -1,0 +1,36 @@
+title = "Home"
+url = "/"
+layout = "default"
+meta_title = "Unmatched Biking Tour"
+meta_description = "Ladakh Bike Safari"
+is_hidden = 0
+seo_keywords = "Ladakh Bike Safari"
+robot_index = "index"
+robot_follow = "follow"
+==
+<div class="container" id="main-content-wrapper">
+  <div class="row main-content">
+    <div class="col-xl-12 d-none d-xs-none d-xl-block">{% partial 'site/quickform' %}</div>
+    <div id="home-welcome-message" class="col d-sm-none mb-5">
+      <h1>{{company}}</h1>
+      <p class="hyphenate">Plan your perfect trip to the mesmerising Ladakh with {{company}}. The thrill of finding
+        oneself in the midst of snowy peaks, glaciers, unparalleled slopes, crystal clear river and lush green fields of
+        wild flowers is an unmatched experience. Ladakh is liked by all, whether it is an eager traveler, a fun visitor,
+        an adventure lover, an environmentalist, a wildlife
+        researcher, a photographer or a monk in search of peace. Great care and concern is shown for Nature during in
+        our biking tours! Count on us to provide all the elements of an exciting adventure, vacation getaway while
+        balancing yours schedule, budget
+        and interests.</p>
+    </div><!-- col -->
+    <div class="col-md-12 d-sm-block">
+        <h1 class="mt-5 mb-5">Our Packages</h1>
+      {% partial 'site/homepackages' %}
+
+    </div>
+    <div class="col-md-12 d-sm-block">
+      <h1 class="mt-5 mb-5">Our Bikes</h1>
+      {% partial 'site/our-bikes' %}
+
+    </div>
+  </div><!-- Main Content -->
+</div>

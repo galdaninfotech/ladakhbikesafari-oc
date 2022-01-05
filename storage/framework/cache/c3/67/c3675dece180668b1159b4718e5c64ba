@@ -1,0 +1,66 @@
+1625560757a:1:{s:28:"destinations/destination.htm";a:14:{s:8:"fileName";s:28:"destinations/destination.htm";s:7:"content";s:1170:"title = "Destination"
+url = "/destinations/destination/:slug"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[destination]
+slug = "{{ :slug }}"
+categoryPage = "destinations/category"
+
+
+
+[SeoTourPost]
+post = "post"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/blog-category"
+
+==
+<?php
+function onEnd(){
+
+}
+?>
+==
+
+<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      {% component 'destination' %}
+      {% component 'SeoTourPost' data=post %}
+      <div id="share"><span>Share this tour: </span></div> <!-- #share  -->
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+      <div class="widget-lbg mt-5"><div class="widget-title">Our Bikes</div></div>
+      {% component 'bikessidebar' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->
+
+";s:5:"mtime";i:1623551358;s:6:"markup";s:760:"<div class="container">
+  <div class="row main-content">
+    <div class="col-md-9">
+      {% component 'destination' %}
+      {% component 'SeoTourPost' data=post %}
+      <div id="share"><span>Share this tour: </span></div> <!-- #share  -->
+    </div> <!--  .col-md-9 -->
+    <div class="col-md-3 d-none d-xs-none d-sm-block">
+      <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+      
+      <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+      {% component 'blogCategories' %}
+      <div class="widget-lbg mt-5"><div class="widget-title">Our Bikes</div></div>
+      {% component 'bikessidebar' %}
+    </div> <!--  .col-md-3 -->
+  </div> <!--  .row -->
+</div> <!--  .container -->";s:4:"code";s:22:"function onEnd(){
+
+}";s:5:"title";s:11:"Destination";s:3:"url";s:31:"/destinations/destination/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:11:"destination";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:21:"destinations/category";}s:11:"SeoTourPost";a:1:{s:4:"post";s:4:"post";}s:14:"blogCategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"0";s:12:"categoryPage";s:18:"blog/blog-category";}}}

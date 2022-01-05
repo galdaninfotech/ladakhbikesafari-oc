@@ -1,0 +1,35 @@
+title = "Contact"
+url = "/contact/:bike?"
+layout = "default"
+meta_title = "Contact Us"
+meta_description = "Contact Us - Ladakh Bike Safari"
+is_hidden = 0
+seo_keywords = "Contact Us - Ladakh Bike Safari"
+robot_index = "index"
+robot_follow = "follow"
+
+[contact]
+
+[address]
+
+[SeoCmsPage]
+==
+function onStart()
+{
+    $bike = $this->param('bike');
+    //$bike = 'gggggggggg';
+}
+==
+<div class="container main-content">
+    <div class="row">
+        <div class="col-lg-6 address">
+            <h1>{{this.page.title }} Us</h1>
+            <div id="contact-us"> {% component 'address' %} </div>
+        </div>
+
+        <div class="col-lg-6 contact">
+            <h1>Send us a mail.</h1>
+            <div id="contact-us"> {% component 'contact' bike='bike' %} </div>
+        </div>
+    </div>
+</div>

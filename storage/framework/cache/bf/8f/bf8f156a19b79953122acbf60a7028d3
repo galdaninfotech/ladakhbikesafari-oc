@@ -1,0 +1,41 @@
+1640579223a:1:{s:14:"bikes/bike.htm";a:15:{s:8:"fileName";s:14:"bikes/bike.htm";s:7:"content";s:592:"title = "Bike"
+url = "/bike/:slug"
+layout = "default"
+meta_title = "Bike"
+meta_description = "Bike"
+is_hidden = 0
+seo_keywords = "Bike"
+robot_index = "index"
+robot_follow = "follow"
+
+[bike]
+slug = "{{ :slug }}"
+
+
+
+==
+<div class="container">
+    <div class="row main-content">
+        <div class="col-md-9">
+        	{% component 'bike' %}
+        	
+        </div>
+        <div class="col-md-3">
+        	<div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+            
+        	{% component 'bikessidebar' %}
+    	</div>
+    </div>
+</div>";s:5:"mtime";i:1623596348;s:6:"markup";s:359:"<div class="container">
+    <div class="row main-content">
+        <div class="col-md-9">
+        	{% component 'bike' %}
+        	
+        </div>
+        <div class="col-md-3">
+        	<div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+            
+        	{% component 'bikessidebar' %}
+    	</div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:4:"Bike";s:3:"url";s:11:"/bike/:slug";s:6:"layout";s:7:"default";s:10:"meta_title";s:4:"Bike";s:16:"meta_description";s:4:"Bike";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:4:"Bike";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:4:"bike";a:1:{s:4:"slug";s:11:"{{ :slug }}";}}}

@@ -1,0 +1,72 @@
+[newsSubscribe Subscribe]
+==
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <h4>about us</h4>
+                <ul class="footer-ul-link">
+                    <li><a href="{{ url('/') }}">home</a></li>
+                    <li><a href="{{ url('/company-about') }}">about company</a></li>
+                    <li><a href="{{ url('/company/our-services') }}">Our Services</a></li>
+                    <li><a href="{{ url('/gallery') }}">Photo Gallery</a></li>
+                    <li><a href="{{ url('/company/testimonials') }}">Testimonials</a></li>
+                    <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                    <li><a href="{{ url('/sitemap.xml') }}">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 d-none d-xs-none d-md-block">
+                <h4>about ladakh</h4>
+                <ul class="footer-ul-link">
+                    <li><a href="{{ url('/ladakh/about-ladakh') }}">about ladakh</a></li>
+                    <li><a href="{{ url('/ladakh/history') }}">history</a></li>
+                    <li><a href="{{ url('/ladakh/art-culture') }}">art & culture</a></li>
+                    <li><a href="{{ url('/ladakh/geography') }}">geography</a></li>
+                    <li><a href="{{ url('/ladakh/wildlife') }}">wildlife</a></li>
+                    <li><a href="{{ url('/ladakh/how-to-reach') }}">how to reach</a></li>
+                    <li><a href="{{ url('/ladakh/festival') }}">Ladakh Festivals</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 d-none d-xs-none d-sm-block">
+                <h4>our packages</h4>
+                {% partial 'site/footerpackages' %}
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                <h4>Places to See</h4>
+                {% component 'destinationsfooter' %}
+                
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mt-5 mt-lg-0 mb-3 mb-lg-0">
+                <h4>Subscribe to Our Newsletter</h4>
+                {% component 'Subscribe' %}
+            </div>
+            <div class="clearfix"></div>
+        </div>   <!-- row -->   
+
+        <div class="col-md-12"><div class="dash-line gray"></div></div>
+
+        <div class="foot_bot row">
+            <div class="col-md-6 col-lg-4 d-none d-xs-none d-md-block">
+                <div id="payment-options"><h5>We Accept:</h5><br>
+                    <div id="googleckout"></div>
+                    <div id="discover"></div>
+                    <div id="mastercard"></div>
+                    <div id="americanexpress"></div>
+                    <div id="visa"></div>
+                    <div id="pay1"></div>
+                    <div id="paypal"></div>
+                    <div class="clearfix"></div>
+                  </div><br>
+                {% partial 'site/copyright' %}
+            </div>
+            <div class="col-lg-4 d-none d-xs-none d-lg-block">
+                <div id="affiliates"></div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                {% partial 'site/address' %}
+            </div>
+        </div>  
+    </div> <!-- container --> 
+
+ 
+</footer>

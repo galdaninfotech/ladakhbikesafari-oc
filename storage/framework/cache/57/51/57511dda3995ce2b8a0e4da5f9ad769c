@@ -1,0 +1,88 @@
+1640579224a:1:{s:20:"site/bikesheader.htm";a:6:{s:8:"fileName";s:20:"site/bikesheader.htm";s:7:"content";s:2012:"==
+<div id="rounded-images" class="d-none d-lg-block">
+    <style>
+#classic-desert-storm {  background-image: url(http://ladakhbikesafari.com/storage/app/media/headerhimalayan.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/bikes/himalayan" title="Himalayan" alt="Himalayan">
+<div id="classic-desert-storm" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#standard-500-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/500ccheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/standard-500cc" title="Standard  500 cc" alt="Standard  500 cc">
+<div id="standard-500-cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#interceptor-650-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/interceptorheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/interceptor650cc" title="Interceptor 650 cc" alt="Interceptor 650 cc">
+<div id="interceptor-650-cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#bullet350cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/headerbullet350cc.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/bullet350cc" title="Bullet 350cc" alt="Bullet 350cc">
+<div id="bullet350cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#classic-350-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/meteorheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/classic-350cc" title="Classic 350 cc" alt="Classic 350 cc">
+<div id="classic-350-cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#classic-350-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/350ccheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/classic-350cc" title="Classic 350 cc" alt="Classic 350 cc">
+<div id="classic-350-cc" class="image-hover img-round-square"></div>
+</a>
+
+</div>";s:5:"mtime";i:1637215250;s:6:"markup";s:2009:"<div id="rounded-images" class="d-none d-lg-block">
+    <style>
+#classic-desert-storm {  background-image: url(http://ladakhbikesafari.com/storage/app/media/headerhimalayan.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/bikes/himalayan" title="Himalayan" alt="Himalayan">
+<div id="classic-desert-storm" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#standard-500-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/500ccheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/standard-500cc" title="Standard  500 cc" alt="Standard  500 cc">
+<div id="standard-500-cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#interceptor-650-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/interceptorheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/interceptor650cc" title="Interceptor 650 cc" alt="Interceptor 650 cc">
+<div id="interceptor-650-cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#bullet350cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/headerbullet350cc.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/bullet350cc" title="Bullet 350cc" alt="Bullet 350cc">
+<div id="bullet350cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#classic-350-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/meteorheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/classic-350cc" title="Classic 350 cc" alt="Classic 350 cc">
+<div id="classic-350-cc" class="image-hover img-round-square"></div>
+</a>
+
+<style>
+#classic-350-cc {  background-image: url(http://ladakhbikesafari.com/storage/app/media/bikehomeheader/350ccheader.jpg); background-repeat: no-repeat; }
+</style>
+<a href="/classic-350cc" title="Classic 350 cc" alt="Classic 350 cc">
+<div id="classic-350-cc" class="image-hover img-round-square"></div>
+</a>
+
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

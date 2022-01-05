@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+tabs:
+  fields:
+      name:
+          label: Name
+          searchable: true
+          tab: Edit
+
+      description:
+        label: Description
+        tab: Edit
+        type: textarea
+        size: small

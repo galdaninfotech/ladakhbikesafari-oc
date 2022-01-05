@@ -1,0 +1,65 @@
+1625560758a:1:{s:18:"tours/tour-faq.htm";a:17:{s:8:"fileName";s:18:"tours/tour-faq.htm";s:7:"content";s:904:"title = "Tour FAQs"
+url = "/tours/tour-faq"
+layout = "default"
+meta_title = "Tour FAQs"
+meta_description = "Tour FAQs"
+is_hidden = 0
+seo_keywords = "Tour FAQs"
+robot_index = "index"
+robot_follow = "follow"
+
+[contact]
+
+[address]
+
+[SeoCmsPage]
+==
+function onStart()
+{
+    $bike = $this->param('bike');
+    //$bike = 'gggggggggg';
+}
+==
+<div class="container">
+    <div class="row main-content">
+        <div class="col-md-9">
+            <h1>Tour FAQs</h1>
+
+
+        </div>
+        <!--  .col-md-9 -->
+        <div class="col-md-3 d-none d-xs-none d-sm-block">
+            <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+
+            <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+
+            <div class="widget-lbg"><div class="widget-title">Our Bikes</div></div>
+
+        </div>
+        <!--  .col-md-3 -->
+    </div>
+    <!--  .row -->
+</div>";s:5:"mtime";i:1624498391;s:6:"markup";s:571:"<div class="container">
+    <div class="row main-content">
+        <div class="col-md-9">
+            <h1>Tour FAQs</h1>
+
+
+        </div>
+        <!--  .col-md-9 -->
+        <div class="col-md-3 d-none d-xs-none d-sm-block">
+            <div class="widget-lbg"><div class="widget-title">Tour Categories</div></div>
+
+            <div class="widget-lbg"><div class="widget-title">Blog Categories</div></div>
+
+            <div class="widget-lbg"><div class="widget-title">Our Bikes</div></div>
+
+        </div>
+        <!--  .col-md-3 -->
+    </div>
+    <!--  .row -->
+</div>";s:4:"code";s:84:"function onStart()
+{
+    $bike = $this->param('bike');
+    //$bike = 'gggggggggg';
+}";s:5:"title";s:9:"Tour FAQs";s:3:"url";s:15:"/tours/tour-faq";s:6:"layout";s:7:"default";s:10:"meta_title";s:9:"Tour FAQs";s:16:"meta_description";s:9:"Tour FAQs";s:9:"is_hidden";s:1:"0";s:12:"seo_keywords";s:9:"Tour FAQs";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:7:"contact";a:0:{}s:7:"address";a:0:{}s:10:"SeoCmsPage";a:0:{}}}

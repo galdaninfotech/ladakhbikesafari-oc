@@ -1,0 +1,47 @@
+1625560759a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1026:"==
+
+==
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-3 col-lg-2">
+                <div id="left">
+                    <a id="logo-small" class="hidden-lg-up" href="{{ url('/') }}"></a>
+                    <a class="hidden-sm-down" href="{{ url('/') }}"></a>
+                </div> <!-- #left  -->
+            </div> <!--  .col-md-3 -->
+            <div class="col-9 col-md-9 col-lg-10">
+                <div class="row">
+                    <div class="col-lg-12">
+                        {% partial 'site/bikesheader' %}
+                        <div id="header-contact-wrapper" class="float-right">{% partial 'site/social' %}<br>{% partial 'site/header-contact' %}</div>
+                    </div> <!--  .col-md-10 -->
+                    <div class="col-md-12">{% partial 'site/mainmenu' %}</div> <!--  .col-md-12  -->
+                </div> <!--  .row -->
+            </div> <!--  .col-md-9 -->
+        </div> <!--  .row -->
+    </div> <!--  .container -->
+</header>
+
+";s:5:"mtime";i:1624493242;s:6:"markup";s:1016:"<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-3 col-lg-2">
+                <div id="left">
+                    <a id="logo-small" class="hidden-lg-up" href="{{ url('/') }}"></a>
+                    <a class="hidden-sm-down" href="{{ url('/') }}"></a>
+                </div> <!-- #left  -->
+            </div> <!--  .col-md-3 -->
+            <div class="col-9 col-md-9 col-lg-10">
+                <div class="row">
+                    <div class="col-lg-12">
+                        {% partial 'site/bikesheader' %}
+                        <div id="header-contact-wrapper" class="float-right">{% partial 'site/social' %}<br>{% partial 'site/header-contact' %}</div>
+                    </div> <!--  .col-md-10 -->
+                    <div class="col-md-12">{% partial 'site/mainmenu' %}</div> <!--  .col-md-12  -->
+                </div> <!--  .row -->
+            </div> <!--  .col-md-9 -->
+        </div> <!--  .row -->
+    </div> <!--  .container -->
+</header>";s:4:"code";s:0:"";s:17:"_PARSER_ERROR_INI";s:0:"";}}
